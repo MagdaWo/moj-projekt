@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.7;
-  font-family: "Iconsolata", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #2c2c54;
 }
 
@@ -24,8 +24,9 @@ body {
   padding: 0;
   margin: 0;
   color: #f4c10f;
-  font-size: 24px;
-  font-family: 'Georgia', serif;
+  font-size: 34px;
+  font-family: 'Parisienne', serif;
+  font-weight: 700;
 }
 
 .navigation ul {
@@ -74,6 +75,7 @@ header {
   color: #fff;
   font-size: 60px;
   margin: 48px 0 0;
+  font-family: 'Parisienne';
 }
 
 .splash-inner h2 {
@@ -102,10 +104,12 @@ header {
       margin-bottom: 0;
     }
   
-    p {
+    .subtitle {
       color: #777;
       margin-top: 0;
       margin-bottom: 80px;
+      font-family: "Parisienne";
+      font-size: 25px;
     }
   
     .img i {
@@ -137,10 +141,12 @@ header {
       margin-bottom: 0;
     }
   
-    p {
+    .subtitle {
       color: #777;
       margin-top: 0;
       margin-bottom: 80px;
+      font-family: "Parisienne";
+      font-size: 25px;
     }
     }
   .card {
@@ -154,12 +160,56 @@ header {
   
   .card-body {
       h3 {
-      font-family: "Signika";
+  
       font-weight: 700;
       font-size: 20px;
       margin: 20px 0;
       }
       p {
         padding-bottom: 30px;
+        font-family: "Parisienne";
+        font-size: 20px;
       }
   }
+
+.footer-container {
+  padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+   p { padding: 0;
+      margin-right: 270px;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: #000;
+      font-size: 16px;
+ 
+}
+  
+    ul {
+  
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        
+      }
+
+      li {
+        display: inline-block;
+        position: relative;
+        margin-right: 10px;
+        align-items: right;
+      }
+
+      i {
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        line-height: 2;
+      }
+    }
